@@ -20,7 +20,9 @@
     <%= render 'shared/header' %>
     <br/>
     <div class="container">
+      <% if notice %>
       <%= render 'shared/flash' %>
+      <% end %>
       <br>
       <%= yield %>  
     </div>
