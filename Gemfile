@@ -23,6 +23,9 @@ gem 'bcrypt', '~> 3.1.7'
 #Use mongoDB instead of ActiveRecord
 gem 'mongoid', '~> 7.3', '>= 7.3.3'
 
+#Use devise for usemanagement
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 

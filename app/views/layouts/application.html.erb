@@ -18,9 +18,10 @@
 
   <body>
     <%= render 'shared/header' %>
-    <%= render 'shared/flash' %>
     <br/>
     <div class="container">
+      <%= render 'shared/flash' %>
+      <br>
       <%= yield %>  
     </div>
 
